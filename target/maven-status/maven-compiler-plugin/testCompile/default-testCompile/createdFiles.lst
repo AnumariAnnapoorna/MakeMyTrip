@@ -1,0 +1,5 @@
+com\qa\utility\MakeMyTripHotelData.class
+com\qa\testscripts\TC_MakeMyTripHotelReservation_01.class
+com\qa\testscripts\TestBase.class
+com\qa\utility\Reporting.class
+com\qa\pages\MakeMyTripHotelPages.class

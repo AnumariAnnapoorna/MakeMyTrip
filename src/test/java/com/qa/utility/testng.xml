@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="com.qa.utility.Reporting"></listener>
+</listeners>
+
+<parameter name="url" value="https://www.makemytrip.com/"/>
+  <test thread-count="5" name="Test1">
+  	<parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.qa.testscripts.TC_MakeMyTripHotelReservation_01"/>
+    </classes>
+  </test> 
+</suite> <!-- SuiteDate1 comes before Date2Date1 comes before Date2 -->
